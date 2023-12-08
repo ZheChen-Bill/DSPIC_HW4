@@ -1,0 +1,4 @@
+# design sources
+./rtl/FA.v
+./rtl/HA.v
+./rtl/mul.v
