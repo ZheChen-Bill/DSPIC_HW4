@@ -34,10 +34,10 @@ module mul_tb
     mul mul_DUT (.inputA(inputA),.inputB(inputB),.P(P));
     
     integer q,k,count;    
-    initial begin
-        $dumpfile("mul.vcd");
-        $dumpvars();
-    end
+    //initial begin
+    //    $dumpfile("mul.vcd");
+    //    $dumpvars();
+    //end
     reg signed [(bit_A+bit_B-1):0] golden;
     initial begin
         count <= 1;
