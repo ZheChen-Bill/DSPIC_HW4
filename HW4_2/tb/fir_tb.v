@@ -42,10 +42,10 @@ module fir_tb#(
         end
     end
     
-    initial begin
-        $dumpfile("fir.vcd");
-        $dumpvars();
-    end
+    //initial begin
+    //    $dumpfile("fir.vcd");
+    //    $dumpvars();
+    //end
 
     initial begin
         clk = 0;
